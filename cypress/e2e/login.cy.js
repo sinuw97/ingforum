@@ -54,7 +54,7 @@ describe('Login spec', () => {
 
     cy.get('button').contains(/^Login$/).click();
 
-    cy.get('.navigation').should('be.visible');
+    cy.get('.navigation__container').should('be.visible');
     cy.get('.btn-signout').should('be.visible');
   });
 });
