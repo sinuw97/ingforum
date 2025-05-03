@@ -88,7 +88,6 @@ function threadDetailReducer(threadDetail = null, action = {}) {
     return updatedThread;
   }
   default:
-
     return threadDetail;
   }
 }

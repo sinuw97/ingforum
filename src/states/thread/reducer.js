@@ -25,7 +25,6 @@ function threadReducer(threads = [], action = {}) {
       }
       return thread;
     });
-
   case ActionType.TOGGLE_DISLIKE_THREAD:
     return threads.map((thread) => {
       if (thread.id === action.payload.threadId) {

@@ -51,7 +51,7 @@ function App() {
       <Loading />
       <div className="app-container">
         <header className='navigation__container'>
-          <Navigation  authUser={authUser} signOut={signOut}/>
+          <Navigation authUser={authUser} signOut={signOut}/>
         </header>
         <main>
           <Routes>

@@ -124,7 +124,6 @@ function asyncToggleLikeThread(threadId) {
   };
 }
 
-
 function asyncToggleDislikeThread(threadId) {
   return async (dispatch, getState) => {
     dispatch(showLoading());
@@ -162,7 +161,6 @@ function asyncToggleDislikeThread(threadId) {
     dispatch(hideLoading());
   };
 }
-
 
 export {
   ActionType,
